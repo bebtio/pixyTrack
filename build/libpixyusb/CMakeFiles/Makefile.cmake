@@ -9,16 +9,31 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "CMakeFiles/2.8.12.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/2.8.12.2/CMakeSystem.cmake"
-  "/home/bebtio/sandbox/pixy/src/host/hello_pixy/CMakeLists.txt"
-  "/home/bebtio/sandbox/pixy/src/host/hello_pixy/cmake/Findlibpixyusb.cmake"
-  "/home/bebtio/sandbox/pixy/src/host/hello_pixy/cmake/Findlibusb-1.0.cmake"
+  "/home/bebtio/sandbox/pixy/src/host/libpixyusb/CMakeLists.txt"
+  "/home/bebtio/sandbox/pixy/src/host/libpixyusb/cmake/Findlibusb-1.0.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeCXXCompiler.cmake.in"
+  "/usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp"
   "/usr/share/cmake-2.8/Modules/CMakeCXXInformation.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeClDeps.cmake"
   "/usr/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeDetermineCXXCompiler.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeDetermineCompiler.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeDetermineCompilerABI.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeDetermineCompilerId.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeDetermineSystem.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeFindBinUtils.cmake"
   "/usr/share/cmake-2.8/Modules/CMakeGenericSystem.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeParseImplicitLinkInfo.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeSystem.cmake.in"
   "/usr/share/cmake-2.8/Modules/CMakeSystemSpecificInformation.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeTestCXXCompiler.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeTestCompilerCommon.cmake"
+  "/usr/share/cmake-2.8/Modules/CMakeUnixFindMake.cmake"
   "/usr/share/cmake-2.8/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake-2.8/Modules/Compiler/GNU.cmake"
   "/usr/share/cmake-2.8/Modules/FindBoost.cmake"
+  "/usr/share/cmake-2.8/Modules/MultiArchCross.cmake"
+  "/usr/share/cmake-2.8/Modules/Platform/Linux-CXX.cmake"
   "/usr/share/cmake-2.8/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/share/cmake-2.8/Modules/Platform/Linux-GNU.cmake"
   "/usr/share/cmake-2.8/Modules/Platform/Linux.cmake"
@@ -33,10 +48,13 @@ SET(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 SET(CMAKE_MAKEFILE_PRODUCTS
+  "CMakeFiles/2.8.12.2/CMakeSystem.cmake"
+  "CMakeFiles/2.8.12.2/CMakeCXXCompiler.cmake"
+  "CMakeFiles/2.8.12.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 SET(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/hello_pixy.dir/DependInfo.cmake"
+  "CMakeFiles/pixyusb.dir/DependInfo.cmake"
   )
