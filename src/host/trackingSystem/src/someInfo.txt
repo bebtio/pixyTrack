@@ -1,0 +1,5 @@
+Okay, this is just information about the what is actually running in the main.cpp.
+
+The getXYofBlobs function outputs the x and y coordinates of every single detected blob per frame. It does this very fast. That's all I got to say about that.
+
+For now. Gonna probably move that into the Mobility class soon, name it something else and then store that data.  Gonna have to figure out a way to throughout data that has a high probability of being incorrect so our altitiude isn't changing erratically.  Maybe we could average out the values or something.  I don't know. Any ideas?
