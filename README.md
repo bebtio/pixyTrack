@@ -4,22 +4,22 @@ http://charmedlabs.github.io/pixy/index.html
 
 Pixy README
 
-This directory contains:
+ToDo List:
+
+1.) Make height estimations based on bounding box.
+	- Probably use some sort of edge detection
+	- Will most likely suck if a ground robot is directly beneath us.
+	- We can probably use our most recently registered altitude and
+		keep reporting that.
+
+2.) We might be able to use the same method to find the ground robots
+	themselves, gotta read more.
+
+3.) Get the video feed from the pixy so we can run our own image processing
+	or find out how to program the processors so that they directly process 	the video how we want them to.
+
+4.) Deliver the output data in MAVLink protocol.
 
 
-/doc - this directory contains a doxygen configuration file for building doxygen documentation.
 
-/scripts - this directory contains scripts for building pixy software modules.
-
-/src/device - this directory contains code (firmware) that runs on the Pixy
-(CMUcam5) device.
-
-/src/host - this directory contains code that runs on the host computer.
-(Windows PC, Linux PC, Mac)
-
-/src/host/hello_pixy - this directory contains an example program that uses libpixyusb for communicating with Pixy.
-
-/src/host/libpixyusb - this directory contains the USB library for communicating with Pixy.
-
-/src/host/arduino - this directory contains the Arduino library for communicating with Pixy.
-
+In order to build the project go to seniorDesignScripts and run that .sh file thats hanging out in there.
