@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bebtio/sandbox/pixyTrack/src/host/trackingSystem/src/main.cpp
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+signal.h
+-
+string.h
+-
+pixy.h
+/home/bebtio/sandbox/pixyTrack/src/host/trackingSystem/src/pixy.h
+iostream
+-
+
