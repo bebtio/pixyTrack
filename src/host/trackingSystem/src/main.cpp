@@ -20,6 +20,15 @@
 #include <string.h>
 #include "pixy.h"
 
+// Team 1541 begin
+// no more of the printf stuff with percent signs.
+#include <iostream>
+
+// A little forward declaration here, not gonna keep this here
+// just for testing right now.
+void getXYofBlobs(Block in);
+// Team 1541 end
+
 #define BLOCK_BUFFER_SIZE    25
 
 // Pixy Block buffer //
@@ -138,11 +147,30 @@ int main(int argc, char * argv[])
 
     // Display received blocks //
     printf("frame %d:\n", i);
-    for(index = 0; index != blocks_copied; ++index) {
-       blocks[index].print(buf);
-       printf("  %s\n", buf);
+    
+    for(index = 0; index != blocks_copied; ++index) 
+    {
+       // This little magic piece of code takes the buf variable which is a 
+       // STRING by the way and enters the x,y,height, and width of the
+       // currently detected block inside of it.  We don't want use it.
+       //blocks[index].print(buf);
+       // printf("  %s\n", buf);
+       
+       getXYofBlobs(blocks[index]);
+       
     }
     i++;
   }
   pixy_close();
+}
+
+
+/**************************************************************/
+// Team 1541
+// This is where their code ends and ours begins
+// 
+
+void getXYofBlobs(Block in)
+{
+	std::cout << "X-coordinate: "  << in.x << std::endl;
 }
