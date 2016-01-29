@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/tracking_System.dir/main.cpp.o  -o tracking_System -rdynamic -lpixyusb -lboost_thread -lboost_system -lboost_chrono -lpthread -lusb-1.0 
