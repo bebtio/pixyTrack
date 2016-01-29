@@ -2,9 +2,9 @@ cmake_minimum_required (VERSION 2.8)
 project (trackginSystem CXX)
 
 set (CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake" )
-
+file(GLOB SRCS include/*.h src/*.cpp )
 # Add sources here... #
-add_executable (tracking_System main.cpp)
+add_executable (tracking_System src/main.cpp)
 
 # libpixyusb should always come before libboost and libusb #
 target_link_libraries ( tracking_System pixyusb)
