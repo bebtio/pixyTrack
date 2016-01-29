@@ -174,8 +174,8 @@ void getXYofBlobs(Block in)
 {
 	std::cout << "X-coordinate: " << in.x << std::endl;
 	std::cout << "Y-coordinate: " << in.y << std::endl;
-	std::cout << "Height: " in.Height << std::endl;
-	std::cout << "Length: " in.Length << std::endl;
+	std::cout << "Width: " <<  in.width << std::endl;
+	std::cout << "Height: " <<  in.height << std::endl;
 	std::cout << std::endl;
 
 }
