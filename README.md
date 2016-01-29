@@ -23,3 +23,5 @@ ToDo List:
 
 
 In order to build the project go to seniorDesignScripts and run that .sh file thats hanging out in there.
+
+Added so the function getXYofBlobs() returns the x,y, height and width of the blcks.
